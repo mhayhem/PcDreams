@@ -1,0 +1,176 @@
+/* selectors */
+
+body {
+    background-color: #EDEDE9;
+    font-family: 'Ubuntu Sans Mono', monospace;
+}
+header {
+    height: 200px;
+    background-color: #f07167;
+    text-align: center;
+    width: 100%;
+}
+main {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+footer {
+    text-align: center;
+    height: 50px;
+    font-family: "Sevillana", cursive;
+    color: #9f86c0;
+    background-color: #000;
+}
+a {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    background-color: #F07167;
+    padding: 10px;
+    border: solid 1px #F07167;
+    border-radius: 10px;
+    margin-top: 10px;
+    font: 500 30px "Sevillana", cursive;
+}
+a:hover {
+    color: #9f86c0;
+}
+a:any-link, a:-webkit-any-link, a:-moz-any-link {
+    background-color: #9f86c0;
+}
+input[type='submit'] {
+    background-color: #F07167;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}   
+
+/* hereditary selectors */
+
+header h1 {
+    padding-top: 30px;
+    font: 400 60px "Sevillana", cursive;
+    margin: 10px;
+}
+header h3 {
+    padding-top: 20px;
+    font: 400 30px "Sevillana", cursive;
+    margin: 5px;
+}
+#products h2 {
+    height: 20px;
+    background-color: #000;
+    color: #fff;
+}
+.itemCard h4 {
+    margin: 5px;
+}
+.itemCard p {
+    font-weight: 800;
+}
+.itemCard img {
+    width: 150px;
+    border-radius: 15px 15px;
+}
+#shopcart h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+#shopcart h3 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+}
+#dropZone p {
+    font: 200 15px 'Ubuntu Sans Mono', monospace;
+    margin-top: 200px;
+    text-align: center;
+}
+#priceArea h3 {
+    margin-top: 15px;
+}
+#dropZone img {
+    height: 150px;
+    width: 150px;
+    background-color: #F07167;
+}
+
+/* IDs selectors */
+
+#products {
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+#motherboard, #cpu, #gpu, #powersupply, #ssd, #rammemory, #cooling, #cases {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+#shopcart {
+    float: end;
+    margin-left: 900px;
+    position: fixed;
+    text-align: center;
+}
+#dropZone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 700px;
+    height: 400px;
+}
+#total {
+    background-color: #f5f5f5;
+    width: 400px;
+    height: 50px;
+    margin-top: 15px;
+    border: solid 2px #000;
+}
+#sum {
+    margin-top: 13px;
+    text-align: end;
+    font-size: 25px;
+    font-weight: 400;
+}
+#return {
+    background-color: #F07167;
+    margin-top: 80px;
+    margin-left: 150px;
+    text-align: center;
+    border: solid 1px #F07167;
+    border-radius: 10px;
+    height: 27px;
+    width: 90px;
+}
+
+/* class selectors */
+
+.itemCard {
+    text-align: center;
+    margin: 5px;
+    width: 150px;
+    height: 250px;
+    background-color: #edede9;
+    border-radius: 15px;
+}
+.dropZone {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    font-size: 12px;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
